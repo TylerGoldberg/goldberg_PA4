@@ -4,10 +4,10 @@ public class Application {
 
     public static void main(String[] args) throws IOException {
 
-        DuplicateRemover dup = new DuplicateRemover();
+        DuplicateRemover duplicateRemover = new DuplicateRemover();
 
-        dup.remove("problem1.txt");
-        dup.Write("uniqueWords.txt");
+        duplicateRemover.remove("problem1.txt");
+        duplicateRemover.Write("uniqueWords.txt");
 
     }
 
